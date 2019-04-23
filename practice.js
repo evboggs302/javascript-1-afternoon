@@ -63,10 +63,10 @@ var groceries = ["apples", "milk", "eggs", "bread"]
 //name (a string), color (a string), age (a number),
 //and goodBoy (a boolean).
 
-var dog {
-  name: 'fido'
-  color: 'red'
-  age: 7
+var dog = {
+  name: 'fido',
+  color: 'red',
+  age: 7,
   goodBoy: true
 }
 
@@ -92,8 +92,7 @@ function nameCheck(name){
   }else {
     return "Cool name, " + name
   }
-
-  }
+}
 
 //////////////////PROBLEM 11////////////////////
 
