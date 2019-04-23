@@ -20,7 +20,7 @@ var lovesCode = false
 
 //Create a variable called greatestFear that is undefined because we fear nothing
 
-var greatestFear;
+var greatestFear
 
 //////////////////PROBLEM 5////////////////////
 
@@ -36,7 +36,7 @@ var devMountain = null
 //plus the value of the name parameter.
 
 function greeting(name){
-  return 'Hello ' + name;
+  return 'Hello' + name;
 }
 
 
@@ -45,7 +45,7 @@ function greeting(name){
 //Rewrite the function greeting as a function expression.
 //Name it newGreeting.
 
-//Code Here
+var newGreeting = greeting(name);
 
 
 //////////////////PROBLEM 8////////////////////
@@ -53,7 +53,8 @@ function greeting(name){
 //Create an array called groceries with the values
 //"apples", "milk", "eggs", "bread"
 
-//Code Here
+var groceries = ["apples", "milk", "eggs", "bread"]
+
 
 //////////////////PROBLEM 9////////////////////
 
@@ -62,7 +63,12 @@ function greeting(name){
 //name (a string), color (a string), age (a number),
 //and goodBoy (a boolean).
 
-//Code Here
+var dog {
+  name: 'fido'
+  color: 'red'
+  age: 7
+  goodBoy: true
+}
 
 //...access the dog's name from the object and assign it to a
 //variable called devMountainClassPet.
