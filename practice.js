@@ -45,7 +45,9 @@ function greeting(name){
 //Rewrite the function greeting as a function expression.
 //Name it newGreeting.
 
-var newGreeting = greeting(name);
+var newGreeting = function(name){
+  return 'Hello, ' + name
+}
 
 
 //////////////////PROBLEM 8////////////////////
@@ -167,13 +169,13 @@ let pondScope = ["duck", "sailorDuck", "rubberDuck", "realDuck"];
 
 //Create a variable called age with your age assigned to you
 
-// Code Here
+var age = 24
 
 // FLASH FORWARD TO NEXT YEAR
 // reassign the value of age to be one greater than it was, because, we all get older
 
-// Code Here
+age = 25
 
 // Good news! We can live forever. Set your age to 999
 
-// Code Here
+age = 999
