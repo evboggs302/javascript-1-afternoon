@@ -26,7 +26,7 @@ var greatestFear
 
 //Create a variable called devMountainGoal that is null because we are just starting out
 
-var devMountain = null
+var devMountainGoal = null
 
 //////////////////PROBLEM 6////////////////////
 
@@ -36,7 +36,7 @@ var devMountain = null
 //plus the value of the name parameter.
 
 function greeting(name){
-  return 'Hello' + name;
+  return 'Hello, ' + name
 }
 
 
@@ -73,7 +73,7 @@ var dog = {
 //...access the dog's name from the object and assign it to a
 //variable called devMountainClassPet.
 
-var devMountianClassPet = dog.name;
+var devMountianClassPet = dog.name
 
 //////////////////PROBLEM 10////////////////////
 
