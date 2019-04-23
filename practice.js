@@ -64,16 +64,16 @@ var groceries = ["apples", "milk", "eggs", "bread"]
 //and goodBoy (a boolean).
 
 var dog = {
-  name: 'fido',
-  color: 'red',
-  age: 7,
+  name: 'Koya',
+  color: 'brown',
+  age: 13,
   goodBoy: true
 }
 
 //...access the dog's name from the object and assign it to a
 //variable called devMountainClassPet.
 
-var devMountianClassPet = dog.name
+var devMountainClassPet = dog.name;
 
 //////////////////PROBLEM 10////////////////////
 
@@ -120,11 +120,11 @@ var mathSum = add(3, 4)
 
 function faveColorFinder(color){
   if(color === 'red'){
-    return 'red is a grest color'
+    return 'red is a great color'
   }else if(color === 'green'){
     return 'green is a solid favorite color'
   }else if(color === 'black'){
-    return 'so trendy!'
+    return 'so trendy'
   } else {
     return 'you need to evaluate your favorite color choice'
   }
