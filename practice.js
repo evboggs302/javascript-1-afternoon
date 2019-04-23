@@ -8,7 +8,7 @@ var myName = 'Evan'
 
 //Create a variable called myAge that is a number data type
 
-myAge = 24
+var myAge = 24
 
 //////////////////PROBLEM 3////////////////////
 
@@ -73,7 +73,7 @@ var dog {
 //...access the dog's name from the object and assign it to a
 //variable called devMountainClassPet.
 
-//Code Here
+var devMountianClassPet = dog.name;
 
 //////////////////PROBLEM 10////////////////////
 
